@@ -1,40 +1,7 @@
 !include ./theme.pu
-
-'
-' NOTE: We can also write like this to use remote files.
-'
-' !define AWSPuml https://raw.githubusercontent.com/awslabs/aws-icons-for-plantuml/v5.0/dist
-' !includeurl AWSPuml/AWSCommon.puml
-' !includeurl AWSPuml/AWSSimplified.puml
-' !includeurl AWSPuml/General/User.puml
-'
-' See this link for what you can include, https://github.com/awslabs/aws-icons-for-plantuml/tree/master/dist
-'
-
-' !include <awslib/AWSCommon>
-' !include <awslib/AWSSimplified>
-
-' '
-' ' Resources we use.
-' ' Please append what you need.
-' ' Also add color configuration in theme.pu for the resources.
-' '
-' !include <awslib/General/User>
-' !include <awslib/General/Users>
-' !include <awslib/Compute/Lambda>
-' !include <awslib/Compute/Fargate>
-' !include <awslib/Storage/S3Bucket>
-' !include <awslib/Database/RDS>
-' ' !include <awslib/Database/RDSPostgreSQLinstance>
-' !include <awslib/Analytics/Kinesis>
-' !include <awslib/GroupIcons/StepFunction>
-' !include <awslib/ManagementAndGovernance/CloudWatch>
-' !include <awslib/ManagementAndGovernance/CloudWatchEventEventBased>
-
 '''
-''' 2020-04-02, awslib is a bit old comparing to v6.0. I use the latest version.
 '''
-!define AWSPuml https://raw.githubusercontent.com/awslabs/aws-icons-for-plantuml/v6.0/dist
+!define AWSPuml https://raw.githubusercontent.com/awslabs/aws-icons-for-plantuml/v7.0/dist
 !includeurl AWSPuml/AWSCommon.puml
 !includeurl AWSPuml/AWSSimplified.puml
 
@@ -48,10 +15,12 @@
 ' !includeurl AWSPuml/Database/RDSPostgreSQLinstance.puml
 ' !includeurl AWSPuml/Analytics/Kinesis.puml
 ' !includeurl AWSPuml/GroupIcons/StepFunction.puml
-' !includeurl AWSPuml/ManagementAndGovernance/CloudWatch.puml
+!includeurl AWSPuml/ManagementAndGovernance/CloudWatch.puml
 ' !includeurl AWSPuml/ManagementAndGovernance/CloudWatchEventEventBased.puml
 ' !includeurl AWSPuml/ManagementAndGovernance/CloudWatchEventTimeBased.puml
 ' !includeurl AWSPuml/NetworkingAndContentDelivery/APIGatewayEndpoint2.puml
 ' !includeurl AWSPuml/Database/DynamoDBTable.puml
 ' !includeurl AWSPuml/Database/DynamoDBItem.puml
 ' !includeurl AWSPuml/ApplicationIntegration/SQSQueue.puml
+!includeurl AWSPuml/Analytics/KinesisDataFirehose.puml
+' !includeurl AWSPuml/Database/DocumentDBwithMongoDBcompatibility.puml
