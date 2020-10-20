@@ -1,0 +1,80 @@
+'
+'
+'
+skinparam DefaultFontName Helvetica Neue
+'skinparam DefaultFontSize 10
+skinparam shadowing false
+skinparam BackgroundColor transparent
+
+!$mainColor = "indigo"
+!$mainElementBgcolor = "#ffffff"
+
+skinparam ArrowColor $mainColor
+skinparam ArrowThickness 2
+skinparam BorderColor $mainColor
+
+skinparam Actor {
+    BackgroundColor $mainElementBgcolor
+     BorderColor $mainColor
+}
+skinparam Usecase {
+    BackgroundColor $mainElementBgcolor
+    BorderColor $mainColor
+    'BorderThickness 10
+}
+skinparam Component {
+    BackgroundColor $mainElementBgcolor
+    BorderColor $mainColor
+}
+skinparam Note {
+    BackgroundColor $mainElementBgcolor
+    BorderColor $mainColor
+    ' BorderThickness 2
+}
+skinparam Interface {
+    BackgroundColor $mainElementBgcolor
+    BorderColor $mainColor
+}
+skinparam Boundary {
+    BackgroundColor $mainElementBgcolor
+    BorderColor $mainColor
+}
+skinparam Control {
+    BackgroundColor $mainElementBgcolor
+    BorderColor $mainColor
+}
+skinparam Entity {
+    BackgroundColor $mainElementBgcolor
+    BorderColor $mainColor
+}
+skinparam File {
+    BackgroundColor $mainElementBgcolor
+    BorderColor $mainColor
+}
+skinparam Object {
+    BackgroundColor $mainElementBgcolor
+    BorderColor $mainColor
+}
+skinparam State{
+    BackgroundColor $mainElementBgcolor
+    BorderColor $mainColor
+    RoundCorner 20
+}
+
+skinparam sequence {
+    ArrowColor $mainColor
+    ActorBorderColor $mainColor
+    LifeLineBorderColor $mainColor
+    LifeLineBackgroundColor mainElementBgcolor
+
+    ParticipantBorderColor $mainColor
+    ParticipantBackgroundColor $mainElementBgcolor
+    ' ParticipantFontName Impact
+    ' ParticipantFontSize 17
+    ' ParticipantFontColor #A9DCDF
+
+    ActorBackgroundColor $mainElementBgcolor
+    ' ActorFontColor $mainColor
+    ' ActorFontSize 17
+    ' ActorFontName Aapex
+}
