@@ -26,6 +26,9 @@ skinparam Component {
     BackgroundColor $mainElementBgcolor
     BorderColor $mainColor
 }
+' skinparam Package {
+'     BorderColor $mainColor
+' }
 skinparam Note {
     BackgroundColor $mainElementBgcolor
     BorderColor $mainColor
